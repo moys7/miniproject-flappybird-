@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!--dir: text direction      ltr:left to right
+  rtl:right to left        auto -->
+  <head>
+    <meta charset="utf-8">
+    <!--
+      meta태그에는 문자 암호화(character encoding)의 종류를 나타내는속성이 필요하다.
+      charset attribute라 불리며 <meta charset="utf-8">로 쓴다.
+      utf-8은 널리 쓰이는 문자 암호화 중 하나로 연습할 때 쓰기 편하다.
+    -->
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+  <div class="border-left"></div>
+  <div class="game-container">
+      <div class="border-top"></div>
+      <div class="sky">
+          <div class="bird"></div>
+      </div>
+  </div>
+  <div class="ground-container">
+    <div class="ground-moving"></div>
+  </div>
+  <div class="border-right"></div>
+
+  </body>
